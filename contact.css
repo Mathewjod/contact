@@ -1,0 +1,142 @@
+body{
+    background-color: black;
+}
+.top{
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: max-content;
+    
+    color: white;
+    padding: 8px;
+    
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.back{
+    text-decoration: none;
+   
+    
+    
+
+}
+
+.phonenumber{
+    color: white;
+}
+.phonenumber img{
+    float: left;
+}
+.phonenumber p{
+    margin-left: 45px;
+    
+}
+.ph{
+    margin-top:15px;
+}
+.mail{
+    color: white;
+}
+.mail img{
+    float: left;
+    
+
+}
+.mail a{
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+}
+.mail p{
+    margin-left: 45px;
+}
+.linkdin{
+    color: white;
+}
+.linkdin img{
+    float: left;
+
+}
+.linkdin p{
+    margin-left: 45px;
+}
+.linkdin p a{
+    text-decoration: none;
+    color: white;
+}
+.Github p a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+.Github img{
+    float: left;
+}
+.Location p{
+    color: white;
+    margin-left: 45px;
+    margin-top: 10px;
+    
+}
+.Location img{
+    float: left;
+}
+.msg h3{
+    color: white;
+    text-align: center;
+   
+}
+.msg form input{
+    margin: auto;
+    
+
+}
+
+form{
+    margin: auto;
+    width: 30%;
+    max-width: 600px;    
+    padding: 30px;
+    background:black;     
+            
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(141, 141, 141, 0.3);
+    
+}
+label{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input{
+    background-color: rgb(238, 224, 224);
+}
+form textarea{
+    background-color: rgb(247, 243, 243);
+    color: white;
+    
+}
+button{
+    background-color: rgb(40, 40, 153);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
