@@ -20,7 +20,16 @@ nav ul li a{
     padding: 5px;
     border-radius: 5px;
     border: 2px solid;
+    display: inline-block;
+    transition: .5s;
 }
+nav ul li a:hover{
+    color: rgb(135, 135, 213);
+    transform: scale(1.1);
+   
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -61,6 +70,13 @@ nav ul li a{
     text-decoration: none;
     color: aliceblue;
     list-style: none;
+    display: inline-block;
+    transition: .5s;
+}
+.mail a:hover{
+    color: rgb(235, 149, 138);
+    transform: scale(1.1);
+
 }
 .mail p{
     margin-left: 45px;
@@ -78,11 +94,24 @@ nav ul li a{
 .linkdin p a{
     text-decoration: none;
     color: white;
+    display: inline-block;
+    transition: .5s;
+}
+.linkdin p a:hover{
+    color: rgb(127, 127, 196);
+    transform: scale(1.1);
 }
 .Github p a{
     color: white;
     text-decoration: none;
     margin-left: 15px;
+    display: inline-block;
+    transition: .5s;
+
+}
+.Github p a:hover{
+    color: rgb(69, 69, 72);
+    transform: scale(1.1);
 
 }
 .Github img{
@@ -116,7 +145,7 @@ form{
     background:black;     
             
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(141, 141, 141, 0.3);
+    
     
 }
 label{
@@ -131,7 +160,7 @@ form input{
 }
 form textarea{
     background-color: rgb(247, 243, 243);
-    color: white;
+    color: rgb(27, 25, 25);
     
 }
 button{
@@ -139,4 +168,12 @@ button{
     padding: 5px;
     color: white;
     border-radius: 5px;
+    display: inline-block;
+    transition: .5s;
+
+}
+button:hover{
+    color: antiquewhite;
+    transform: scale(1.1);
+
 }
